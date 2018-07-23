@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-portfinder",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "description": "Cordova Portfinder Plugin",
   "types": "./types/index.d.ts",
   "cordova": {

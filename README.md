@@ -1,8 +1,3 @@
----
-title: Portfinder
-description: Find a free port.
----
-
 # cordova-plugin-portfinder
 
 This plugin defines a global `portfinder` object.
