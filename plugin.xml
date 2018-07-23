@@ -8,10 +8,11 @@
     <description>Cordova Portfinder Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,portfinder</keywords>
-    <repo>https://github.com/LabDeve/cordova-plugin-portfinder.git</repo>
-    <issue>https://github.com/LabDeve/cordova-plugin-portfinder/issues</issue>
+    <repo>https://github.com/Group4Business/cordova-plugin-portfinder.git</repo>
+    <issue>https://github.com/Group4Business/cordova-plugin-portfinder/issues</issue>
 
     <js-module src="www/portfinder.js" name="portfinder">
+        <clobbers target="cordova.plugins.portfinder" />
         <clobbers target="portfinder" />
     </js-module>
 

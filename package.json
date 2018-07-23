@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LabDeve/cordova-plugin-portfinder.git"
+    "url": "https://github.com/Group4Business/cordova-plugin-portfinder.git"
   },
   "bugs": {
-    "url": "https://github.com/LabDeve/cordova-plugin-portfinder/issues"
+    "url": "https://github.com/Group4Business/cordova-plugin-portfinder/issues"
   },
   "keywords": [
     "cordova",

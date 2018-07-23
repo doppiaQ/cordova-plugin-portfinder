@@ -1,5 +1,5 @@
 // Type definitions for Group4business Cordova Portfinder plugin
-// Project: https://github.com/LabDeve/cordova-plugin-portfinder.git
+// Project: https://github.com/Group4Business/cordova-plugin-portfinder.git
 
 /**
  * This plugin defines a global portfinder object.
