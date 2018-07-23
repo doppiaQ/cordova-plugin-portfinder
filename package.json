@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-portfinder",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Cordova Portfinder Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Group4Business/cordova-plugin-portfinder.git"
+    "url": "git+https://github.com/Group4Business/cordova-plugin-portfinder.git"
   },
   "bugs": {
     "url": "https://github.com/Group4Business/cordova-plugin-portfinder/issues"
@@ -30,13 +30,12 @@
   },
   "author": "Group4Business",
   "license": "MIT",
-  "engines": {
-    "cordovaDependencies": {
-      "3.0.0": {
-        "cordova": ">100"
-      }
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
     }
-  },
+  ],
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-semistandard": "^11.0.0",

@@ -6,10 +6,15 @@
     version="0.1.0">
     <name>Portfinder</name>
     <description>Cordova Portfinder Plugin</description>
-    <license>Apache 2.0</license>
+    <license>MIT</license>
     <keywords>cordova,portfinder</keywords>
+    <author>Group4Business</author>
     <repo>https://github.com/Group4Business/cordova-plugin-portfinder.git</repo>
     <issue>https://github.com/Group4Business/cordova-plugin-portfinder/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0" />
+    </engines>
 
     <js-module src="www/portfinder.js" name="portfinder">
         <clobbers target="cordova.plugins.portfinder" />
