@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-portfinder"
+    version="0.1.0-dev">
+    <name>Portfinder</name>
+    <description>Cordova Portfinder Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,portfinder</keywords>
+    <repo>https://github.com/LabDeve/cordova-plugin-portfinder.git</repo>
+    <issue>https://github.com/LabDeve/cordova-plugin-portfinder/issues</issue>
+
+    <js-module src="www/portfinder.js" name="portfinder">
+        <clobbers target="portfinder" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Portfinder" >
+                <param name="android-package" value="com.group4business.cordova.portfinder.Portfinder"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file src="src/android/Portfinder.java" target-dir="src/com/group4business/cordova/portfinder" />
+    </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Portfinder">
+                <param name="ios-package" value="CDVPortfinder"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVPortfinder.h" />
+        <source-file src="src/ios/CDVPortfinder.mm" />
+    </platform>
+
+</plugin>
