@@ -103,6 +103,9 @@ public class Portfinder extends CordovaPlugin {
             InetAddress inetAddr = (host != null)? InetAddress.getByName(host) : null;
             server = new ServerSocket(defPort, 0, inetAddr);
             port = server.getLocalPort();
+            try {
+                server.close();
+            } catch (Exception e) { }
         } catch (IOException ex1) {
             if (defPort != 0){
                 port = this.getPortWithHostAndDefault(host, 0);
